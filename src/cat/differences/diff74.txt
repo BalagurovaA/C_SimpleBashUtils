@@ -1,2 +1,0 @@
-Test 74 |cat -n  test3.txt test1.txt test2.txt|: Fail
-||Binary files cmp1 and cmp2 differ
