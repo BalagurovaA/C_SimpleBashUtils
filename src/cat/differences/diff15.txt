@@ -1,0 +1,49 @@
+Test 15 |cat -v -e -b -b  test4.txt test1.txt test4.txt|: Fail
+||23,24c23,24
+<      8	Stop.     1	What is C?$
+<      2	The C programming language is a procedural and general-purpose language that provides low-level access to system memory. A program written in C must be run through a C compiler to convert it into an executable that a computer can run. Many versions of Unix-based operating systems (OSes) are written in C and it has been standardized as part of the Portable Operating System Interface (POSIX).$
+---
+>      8	Stop.What is C?$
+>      9	The C programming language is a procedural and general-purpose language that provides low-level access to system memory. A program written in C must be run through a C compiler to convert it into an executable that a computer can run. Many versions of Unix-based operating systems (OSes) are written in C and it has been standardized as part of the Portable Operating System Interface (POSIX).$
+26c26
+<      3	Today, the C programming language runs on many different hardware platforms and OSes such as Microsoft and Linux.$
+---
+>     10	Today, the C programming language runs on many different hardware platforms and OSes such as Microsoft and Linux.$
+28,29c28,29
+<      4	Pros and cons of C$
+<      5	The C language comes with a set of special characteristics, making it one of the most widely used languages of all time. The following are the main benefits of using C:$
+---
+>     11	Pros and cons of C$
+>     12	The C language comes with a set of special characteristics, making it one of the most widely used languages of all time. The following are the main benefits of using C:$
+31c31
+<      1	Apple$
+---
+>     13	Apple$
+33,34c33,34
+<      2	Ipad$
+<      3	IPAD     		 .//$
+---
+>     14	Ipad$
+>     15	IPAD     		 .//$
+36c36
+<      4				ss$
+---
+>     16				ss$
+39c39
+<      5	 LINE$
+---
+>     17	 LINE$
+42c42
+<      6	Another line 					$
+---
+>     18	Another line 					$
+46c46
+<      7	  $
+---
+>     19	  $
+53c53
+<      8	Stop.
+\ No newline at end of file
+---
+>     20	Stop.
+\ No newline at end of file

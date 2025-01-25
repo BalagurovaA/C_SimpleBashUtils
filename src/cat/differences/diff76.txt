@@ -1,0 +1,47 @@
+Test 76 |cat -v -n -e  test1.txt test3.txt test3.txt test4.txt|: Fail
+||9,17c9
+<      1	Apple$
+<      2	$
+<      3	Ipad$
+<      4	IPAD     		 .//$
+<      5	$
+<      6				ss$
+<      7	$
+<      8	$
+<      9	 LINE$
+---
+>      9	Apple$
+19,20c11,12
+<     11	$
+<     12	Another line 					$
+---
+>     11	Ipad$
+>     12	IPAD     		 .//$
+22c14
+<     14	$
+---
+>     14				ss$
+24,25c16,17
+<     16	  $
+<     17	$
+---
+>     16	$
+>     17	 LINE$
+28c20
+<     20	$
+---
+>     20	Another line 					$
+31c23,31
+<     23	Stop.
+\ No newline at end of file
+---
+>     23	$
+>     24	  $
+>     25	$
+>     26	$
+>     27	$
+>     28	$
+>     29	$
+>     30	$
+>     31	Stop.
+\ No newline at end of file
