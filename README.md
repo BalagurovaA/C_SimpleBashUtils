@@ -57,7 +57,7 @@ The implementation of bash utils: cat, grep
 - bash scripts
 
 ## Использование
-1. Для установки проекта необходимо склонировать репозиторий, перейти в папку `./C3_SimpleBashUtils-1/src/cat` или `./C3_SimpleBashUtils-1/src/grep`
+1. Для установки проекта необходимо склонировать репозиторий, перейти в папку `./C_SimpleBashUtils/src/cat` или `./C_SimpleBashUtils/src/grep`
 
 2. Скомпилировать проект: 
 ```sh
